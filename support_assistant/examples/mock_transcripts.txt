@@ -1,0 +1,29 @@
+# Module 3 mock-mode example transcripts
+
+MOCK_LLM=1
+
+## Example 1 — policy question -> retrieve_and_answer
+
+POST /ask
+{"query":"What is the delivery fee for orders below INR 149?"}
+
+Expected response shape:
+{
+  "answer": "Based on the retrieved context: ...",
+  "sources": ["doc_01", "doc_..."],
+  "confidence": 1.0
+}
+
+The exact source order is produced by cosine similarity from ChromaDB.
+
+## Example 2 — general question -> direct_answer
+
+POST /ask
+{"query":"Tell me a joke about Python."}
+
+Expected response:
+{
+  "answer": "I can only answer questions about Zepto policies right now.",
+  "sources": [],
+  "confidence": 1.0
+}
