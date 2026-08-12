@@ -203,3 +203,10 @@ The SQLite database is generated from scratch by `run_pipeline.py`. This means
 the repository does not depend on manually created database records.
 
 The script is the authoritative recreation path for the database.
+
+
+## Module 1 Status
+
+This module implements the end-to-end data pipeline:
+scraping, cleaning, currency conversion, SQLite storage,
+SQL querying, and pandas validation.
