@@ -1,0 +1,3 @@
+column,Q1,Q3,IQR,lower_fence,upper_fence,outlier_count
+age,22.0,35.0,13.0,2.5,54.5,65
+fare,7.8958,31.0,23.1042,-26.7605,65.6563,114

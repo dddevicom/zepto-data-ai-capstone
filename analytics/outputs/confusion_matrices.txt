@@ -1,0 +1,12 @@
+Logistic Regression
+[[97 13]
+ [21 47]]
+
+Decision Tree
+[[98 12]
+ [30 38]]
+
+Random Forest
+[[95 15]
+ [20 48]]
+

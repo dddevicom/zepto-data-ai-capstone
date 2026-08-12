@@ -1,0 +1,5 @@
+- Passenger class and sex jointly show a strong survival pattern, with survival differing across classes and generally higher for females.
+- Fare varies substantially by passenger class, and survival differences can be compared within each class.
+- Age distributions overlap between survivors and non-survivors, but age still adds information to the passenger profile.
+- The age-fare scatter shows interaction among fare, age, class and survival rather than a single-variable story.
+- Survival composition differs by embarkation port, although passenger mix and class may partly explain the relationship.

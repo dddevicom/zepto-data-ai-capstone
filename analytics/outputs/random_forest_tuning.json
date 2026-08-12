@@ -1,0 +1,10 @@
+{
+  "best_params": {
+    "model__max_depth": 10,
+    "model__max_features": "sqrt",
+    "model__n_estimators": 200
+  },
+  "best_cv_auc": 0.869605815205345,
+  "test_auc": 0.8264705882352941,
+  "oob_score": 0.819971870604782
+}

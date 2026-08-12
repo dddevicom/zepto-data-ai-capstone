@@ -1,0 +1,3 @@
+split,rows,survived_rate
+train,711,0.38255977496483823
+test,178,0.38202247191011235

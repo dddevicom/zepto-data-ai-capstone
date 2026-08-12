@@ -1,0 +1,1 @@
+Best imbalance variant by F1: smote_training_only (F1=0.7353). SMOTE is inside a training pipeline, so oversampling is performed only on training data.

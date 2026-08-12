@@ -1,0 +1,5 @@
+column,missing_pct,strategy
+age,19.8653,median imputation
+embarked,0.2245,drop affected rows
+deck,77.2166,drop column
+embark_town,0.2245,drop affected rows
