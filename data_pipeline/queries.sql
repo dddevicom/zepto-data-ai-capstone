@@ -1,4 +1,5 @@
 -- Zepto Capstone Module 1
+-- SQL queries for data pipeline validation and analysis
 -- Required SQL demonstrations: SELECT, WHERE, ORDER BY, LIMIT,
 -- DISTINCT, BETWEEN, and JOIN.
 
