@@ -1,0 +1,18 @@
+MODULE 1 ACCEPTANCE VALIDATION
+================================================================================
+Required GBP -> INR rate: 1 GBP = 105.50 INR
+
+[PASS] At least 60 book rows
+[PASS] At least 3 categories
+[PASS] price_gbp is float
+[PASS] price_inr is float
+[PASS] rating is integer 1-5
+[PASS] in_stock is boolean
+[PASS] categories table exists
+[PASS] books table exists
+[PASS] books has FK to categories
+[PASS] Database has >= 60 books
+[PASS] Database has >= 3 categories
+[PASS] SQL JOIN and pandas.merge match
+
+Overall result: PASS
