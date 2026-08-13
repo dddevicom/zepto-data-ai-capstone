@@ -62,10 +62,41 @@ Module 1 covers data ingestion, cleaning, transformation, SQLite storage, SQL an
 - SQL JOIN is compared with pandas `merge()`.
 - Execution and validation results are stored in the outputs directory.
 
-## Setup
 
+## Setup
 ```powershell
 cd data_pipeline
+python -m pip install -r requirements.txt
+```
+## Run End-to-End
+
+```powershell
+python run_pipeline.py
+```
+
+See `data_pipeline/README.md` for detailed instructions.
+
+
+# Module 2 - Analytics and Machine Learning
+
+## Purpose
+
+Module 2 covers exploratory data analysis and an end-to-end machine learning workflow using the Titanic dataset.
+
+## Design Decisions
+
+- pandas and NumPy are used for data preparation and analysis.
+- Exploratory data analysis is performed before modeling.
+- Multiple classification models are evaluated.
+- SMOTE is used for class-imbalance analysis.
+- GridSearchCV is used for hyperparameter tuning.
+- Classification and regression performance are evaluated.
+- The best complete preprocessing and model pipeline is saved as a Joblib artifact.
+- Charts and analytical outputs are stored in the outputs directory.
+
+## Setup
+```powershell
+cd analytics
 python -m pip install -r requirements.txt
 ```
 ## Run End-to-End
@@ -79,8 +110,8 @@ Verify the saved model:
 ```powershell
 python reload_model.py
 ```
-
 See `analytics/README.md` for detailed instructions.
+
 
 ---
 
